@@ -1,8 +1,7 @@
 Function.prototype.defer = function(ms) {
 
   return function(...args) {
-    console.log(args)
-    setTimeout(() => f.apply(this, args), ms)
+    setTimeout(() => f(...args), ms)
   }
 
 }
