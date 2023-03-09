@@ -1,0 +1,1 @@
+alert( 'body.firstChild.data = body')
