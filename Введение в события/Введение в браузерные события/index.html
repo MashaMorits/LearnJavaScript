@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JavaScript 'Введение в события'</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Скрыть элемент по нажатию кнопки</h2>
+
+    <input type="button" id="hider" value="Нажмите, чтобы спрятать текст" />
+    <div id="text">Текст</div>
+
+    <h2>Спрятать себя</h2>
+    <button id="hide_btn">Нажмите, чтобы спрятать кнопку</button>
+
+    <h2>Какой обработчик запустится?</h2>
+    <p>Оба обработчика обработают, т.к. код для отмены первого обработчика написан некорректно (нет ссылки на handler)
+    </p>
+    <button id="button">Проверка обработчика</button>
+
+    <h2>Передвиньте мяч по полю</h2>
+
+    Нажмите на поле для перемещения мяча.
+    <br> Мяч не должен выходить за границы поля.
+
+
+    <div id="field">
+        <img src="https://ru.js.cx/clipart/ball.svg" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+        . . . . . . . . . .
+    </div>
+
+
+    <h2>Создать раскрывающееся меню</h2>
+
+    <div class="clickable" id="clickable">
+        <p>▶</p>
+        <p>▼</p>
+        <span>Сладости (нажми меня)!</span>
+    </div>
+    <ul id="ul">
+        <li>Пирожное</li>
+        <li>Пончик</li>
+        <li>Мёд</li>
+    </ul>
+
+    <h2>Добавить кнопку закрытия</h2>
+
+    <div class="animals">
+        <div class="pane">
+            <h3>Лошадь</h3>
+            <p>Домашняя лошадь — животное семейства непарнокопытных, одомашненный и единственный сохранившийся подвид
+                дикой лошади, вымершей в дикой природе, за исключением небольшой популяции лошади Пржевальского.</p>
+        </div>
+        <div class="pane">
+            <h3>Осёл</h3>
+            <p>Домашний осёл (лат. Equus asinus asinus), или ишак, — одомашненный подвид дикого осла (Equus asinus),
+                сыгравший важную историческую роль в развитии хозяйства и культуры человека и по-прежнему широко в
+                хозяйстве многих развивающихся стран.</p>
+        </div>
+        <div class="pane">
+            <h3>Кошка</h3>
+            <p>Кошка, или домашняя кошка (лат. Felis silvestris catus), — домашнее животное, одно из наиболее
+                популярных(наряду с собакой) «животных-компаньонов». Являясь одиночным охотником на грызунов и других
+                мелких животных, кошка — социальное животное, использующее для общения широкий диапазон звуковых
+                сигналов.</p>
+        </div>
+    </div>
+
+    <h2>Карусель</h2>
+
+    <div class="slider">
+        <button class="arrow prev">⇦</button>
+        <div class="slider__wrap">
+            <ul>
+                <li><img src="https://ru.js.cx/carousel/1.png"></li>
+                <li><img src="https://ru.js.cx/carousel/2.png"></li>
+                <li><img src="https://ru.js.cx/carousel/3.png"></li>
+                <li><img src="https://ru.js.cx/carousel/4.png"></li>
+                <li><img src="https://ru.js.cx/carousel/5.png"></li>
+                <li><img src="https://ru.js.cx/carousel/6.png"></li>
+                <li><img src="https://ru.js.cx/carousel/7.png"></li>
+                <li><img src="https://ru.js.cx/carousel/8.png"></li>
+                <li><img src="https://ru.js.cx/carousel/9.png"></li>
+                <li><img src="https://ru.js.cx/carousel/10.png"></li>
+            </ul>
+        </div>
+
+        
+        <button class="arrow next">⇨</button>
+
+
+    </div>
+
+
+
+</body>
+
+
+<script src="./script1.js"></script>
+<script src="./script2.js"></script>
+<script src="./script3.js"></script>
+<script src="./script4.js"></script>
+<script src="./script5.js"></script>
+<script src="./script6.js"></script>
+<script src="./script7.js"></script>
+
+</html>

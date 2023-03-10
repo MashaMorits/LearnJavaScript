@@ -1,0 +1,1 @@
+clickable.addEventListener('click', () => clickable.classList.toggle('active'))

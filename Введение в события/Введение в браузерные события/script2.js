@@ -1,0 +1,1 @@
+hide_btn.addEventListener('click', () => hide_btn.remove())
